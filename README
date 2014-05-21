@@ -1,0 +1,8 @@
+Firmware for a balancing robot based on the STM L3GD20 gyro and LSM303DLHC accelerometer.
+
+/main.c contains all of the initialization code.
+/isrs.c contains all of the ISR definitions and is where the "real work" is done.
+/f0lib/ contains my work-in-progress library for the STM32F0. It's not ready for sharing, but I used it, so I'm including it anyway.
+
+The files that I wrote (indicated at the top of each file) are released into the public domain.
+I did NOT write the three files in /stm/, or the /stm32f0-openocd.cfg file.
